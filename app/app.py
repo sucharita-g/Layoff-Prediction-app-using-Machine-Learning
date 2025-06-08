@@ -2,10 +2,16 @@ import streamlit as st
 import joblib
 import pandas as pd
 import numpy as np
+import os
 
+# Get absolute path of this file (app.py)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Load saved model
-model = joblib.load(r"C:\Users\pawan\OneDrive\Documents\Layoff-predictor_app\models\random_forest_model.pkl")
+# Build model path relative to this file
+model_path = os.path.join(BASE_DIR, '..', 'models', 'random_forest_model.pkl')
+
+# Load the model
+model = joblib.load(model_path)
 
 # Mapping dictionaries (from notebook)
 industry_map = {
