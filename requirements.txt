@@ -1,8 +1,5 @@
 streamlit
-scikit-learn
+joblib
 pandas
 numpy
-matplotlib
-seaborn
-label_encoder
-joblib
+scikit-learn
