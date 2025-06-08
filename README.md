@@ -47,7 +47,7 @@ Performed in `notebooks/layoff_eda_modeling.ipynb`:
 
 ## 🤖 Model Training
 
-- **Model Used**: XGBoost Classifier
+- **Model Used**: Random forest Classifier
 - **Accuracy Achieved**: ~65% (on imbalanced real-world data)
 - Saved model: `models/layoff_model.pkl`
 
