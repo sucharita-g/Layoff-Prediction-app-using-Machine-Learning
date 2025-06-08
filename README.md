@@ -152,18 +152,19 @@ streamlit run app/app.py
 ### Folder Structure
 
 Layoff-Prediction-app-using-Machine-Learning/
-├── app/
-│   └── app.py                     # Main Streamlit app code
-├── data/
-│   ├── layoffs_raw.csv            # Raw dataset
-│   └── layoffs_cleaned.csv        # Cleaned dataset used for training
-├── models/
-│   └── random_forest_model.pkl    # Trained Random Forest model saved with joblib
-├── notebooks/
-│   └── layoff_eda_modeling.ipynb # Jupyter notebook for EDA & modeling
-├── requirements.txt               # Required Python packages
-├── README.md                     # This file
-└── .gitignore                    # Git ignore file
+- app/
+  - app.py                    # Main Streamlit app code
+- data/
+  - layoffs_raw.csv           # Raw dataset
+  - layoffs_cleaned.csv       # Cleaned dataset used for training
+- models/
+  - random_forest_model.pkl   # Trained Random Forest model saved with joblib
+- notebooks/
+  - layoff_eda_modeling.ipynb # Jupyter notebook for EDA & modeling
+- requirements.txt            # Required Python packages
+- README.md                  # This file
+- .gitignore                 # Git ignore file
+
 
 
 ---
